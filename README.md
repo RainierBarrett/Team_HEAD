@@ -8,3 +8,10 @@ First of all, you'll want to make an account on [github.com](https://github.com)
 Finally, before you begin using git, it will be useful to run a couple of initial setup commands, to make sure git knows who you are:
 `git config --global user.email <your-email-address>` 
 `git config --global user.name <your-git-username>`
+
+**Section 2: Git command cheat sheet**
+======
+`git checkout -b <newbranchname>`: This creats and checks out to a new branch
+`git add filename`: Sets the file to the staging area
+`git status` : Shows the status of the files in the working directory and the staging area
+`git commit -m <commit message>` : Captures the snapshot of how things are in the staging area
