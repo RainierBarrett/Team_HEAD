@@ -1,5 +1,7 @@
 #A GIT STUDY GUIDE
 
+A small pseudo-manual for the new Git user. Project for Dr. White's Advanced Numerical Methods class at University of Rochester, Fall 2016. Enjoy.
+
 **Section 1: Starting Up Git**
 ====
 
