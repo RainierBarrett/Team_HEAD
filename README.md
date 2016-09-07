@@ -11,7 +11,7 @@ Finally, before you begin using git, it will be useful to run a couple of initia
 
 **Section 2: Git command cheat sheet**
 ======
-`git checkout -b <newbranchname>`: This creats and checks out to a new branch
-`git add filename`: Sets the file to the staging area
-`git status` : Shows the status of the files in the working directory and the staging area
-`git commit -m <commit message>` : Captures the snapshot of how things are in the staging area
+`git checkout -b <newbranchname>`: This creats and checks out to a new branch  
+`git add filename`: Sets the file to the staging area  
+`git status` : Shows the status of the files in the working directory and the staging area  
+`git commit -m <commit message>` : Captures the snapshot of how things are in the staging area  
