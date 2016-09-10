@@ -17,3 +17,15 @@ Finally, before you begin using git, it will be useful to run a couple of initia
 `git add filename`: Sets the file to the staging area  
 `git status` : Shows the status of the files in the working directory and the staging area  
 `git commit -m <commit message>` : Captures the snapshot of how things are in the staging area  
+
+**Section 3: Git command list**
+======
+git init : creates a new empty repo in your local computer
+git clone <url> : creates a copy of an existing Git repository in your computer
+git status: shows which file is in which state (staged and unstaged changes)
+git add: stages your changes
+git commit -a "message": records the changes 
+git log : shows all the past commits made in the repository
+git remote add <url> : pushes our local repo to the Github server
+
+
