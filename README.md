@@ -34,4 +34,17 @@ Finally, before you begin using git, it will be useful to run a couple of initia
 
 `git push origin <branchname>` : pushes our local repo to the Github server
 
+`git pull origin <branchname>` : Fetches and replays changes from the remote branch
+
+`git merge <branchname>`: Merges the branch mentioned with the current branch
+
+`git branch` : Shows a list of existing branches and indicates the branch on which you are currently working
+
+`git branch -d <branchname>`: deletes the branch mentioned
+
+`git rm`: removes files from index or from the working tree and the index
+
+`git mv`: moves or renames a file or directory
+
+
 
