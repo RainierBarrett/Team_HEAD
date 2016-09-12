@@ -72,7 +72,7 @@ Don't want any pesky build files left over from your C++ compiler? Just add the 
 
 Perhaps you'd like to keep an entire directory untracked by Git. The format for this directive is just `<directory-name>/`. For example, `foo/\*` will ignore the directory "`foo`" and all its contents. You can also recursively ignore a directory and all its subdirectories with `<directory-name>/\*\*`.
 
-The "\*\*" can also be used as a prefix, in which case it invokes a search. Anywhere Git finds a matching pattern in the file path, it will proceed to ignore that path. For example, `\*\*/bar/` will ignore any directory named "`bar`" anywhere in the path below the `.gitignore` location.
+The "`\*\*`" can also be used as a prefix, in which case it invokes a search. Anywhere Git finds a matching pattern in the file path, it will proceed to ignore that path. For example, `\*\*/bar/` will ignore any directory named "`bar`" anywhere in the path below the `.gitignore` location.
 
 Comments: anything preceded by a "`#`" symbol in your `.gitignore` file will not be interpreted. This is a handy way to leave yourself some reminders.
 
