@@ -53,7 +53,7 @@ This happens when the contents of the same part of a file in the two branches di
 The merge conflict message mentions the file where there is a conflict. If we open the file, we see something like this:  
 `<<<<<<< HEAD:foo.txt
 Hello god
-=======
+\=======
 Hi dog
 >>>>>>> develop:foo.txt`   
 The block between "<<<<<" and "=====" represents a part of the file "foo.txt" in our current branch and the one between "====" and ">>>>" represents the same part of file "foo.txt" in the branch "develop" that we are trying to merge into our current branch. In order to resolve the conflict, we have to manually modify the conflicting part. For example, we choose to resolve the above mentioned conflict like this:
