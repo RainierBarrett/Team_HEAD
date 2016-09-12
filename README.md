@@ -58,7 +58,7 @@ Hello god
 Hi dog  
 >>>>>>> develop:foo.txt
 ```  
-The block between "<<<<<" and "\=\=\=\=" represents a part of the file "foo.txt" in our current branch and the one between "\=\=\=\=" and ">>>>" represents the same part of file "foo.txt" in the branch "develop" that we are trying to merge into our current branch. In order to resolve the conflict, we have to manually modify the conflicting part. For example, we choose to resolve the above mentioned conflict like this:
+The block between "<<<<<" and "====" represents a part of the file "foo.txt" in our current branch and the one between "====" and ">>>>" represents the same part of file "foo.txt" in the branch "develop" that we are trying to merge into our current branch. In order to resolve the conflict, we have to manually modify the conflicting part. For example, we choose to resolve the above mentioned conflict like this:
 `Hi god`  
 After we are satisfied with the content, we have to add file "foo.txt" to stage it. Staging the file confirms that the merge conflict is resolved.
 
