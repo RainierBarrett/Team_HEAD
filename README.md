@@ -44,9 +44,21 @@ Finally, before you begin using git, it will be useful to run a couple of initia
 
 `git rm`: removes files from index or from the working tree and the index
 
-`git mv`: moves or renames a file or directory
+`git mv`: moves or renames a file or directory  
 
-
+**Section 4: Merge Conflicts**
+=====
+Sometimes trying to merge one branch into another generates a warning saying that there are "Merge Conflicts" which need to be resolved.
+This happens when the contents of the same part of a file in the two branches differ. Instead of auto-resolving the issue, Git allows the user to choose the desired file content. 
+The merge conflict message mentions the file where there is a conflict. If we open the file, we see something like this:  
+`<<<<<<< HEAD:foo.txt
+Hello god
+=======
+Hi dog
+>>>>>>> develop:foo.txt`   
+The block between "<<<<<" and "=====" represents a part of the file "foo.txt" in our current branch and the one between "====" and ">>>>" represents the same part of file "foo.txt" in the branch "develop" that we are trying to merge into our current branch. In order to resolve the conflict, we have to manually modify the conflicting part. For example, we choose to resolve the above mentioned conflict like this:
+`Hi god`  
+After we are satisfied with the content, we have to add file "foo.txt" to stage it. Staging the file confirms that the merge conflict is resolved.
 
 **Section 6: Gitignore Files, Globs, and You**
 ====
