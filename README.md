@@ -83,3 +83,10 @@ Finally, you can make exceptions with `.gitignore`. Any pattern preceded by a "`
 `*.obj` #this means, "ignore all `.obj` files."
 
 `!foo.o` #"but specifically don't ignore the file `foo.o`.
+
+
+**Section7: Further Reference**
+======
+We've given a fair knowledge of the Git basics in this study guide. But what do you do if you encounter somethong that is not mentioned in here?
+In that case, you can refer to the book 'Pro Git' written by Scott Chacon and Ben Straub. The book contains pretty much everything needed to work with Git.
+
